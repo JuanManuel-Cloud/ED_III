@@ -24,7 +24,7 @@ void retardo( uint32_t );
 int main(void) {
 	uint32_t t_retardo = 100000;
 
-	LPC_PINCON -> PINSEL0 = ~0x007F; //de está manera pongo como GPIO los puertos de 0 a 9
+	LPC_PINCON -> PINSEL0 = ~0x7FFF; //de está manera pongo como GPIO los puertos de 0 a 9
 	LPC_GPIO0 -> FIODIRL = 0x3FF;
 	LPC_GPIO0 -> FIOMASKL = 0xFC00;
 

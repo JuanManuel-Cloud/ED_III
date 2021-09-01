@@ -19,8 +19,8 @@ int main(void) {
 	uint32_t numDisplay [10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x67};
 	uint32_t t_retardo = 100000;
 	//Pongo como GPIO los pines del 0 al 7 del puerto 2, y tomo solo el primer byte del puerto2 y lo pongo como salida
-	LPC_PINCON -> PINSEL4 = 0xFFF0;
-	LPC_GPIO2 -> FIODIR0 = 0x7;
+	LPC_PINCON -> PINSEL4 = ~0xFFFF;
+	LPC_GPIO2 -> FIODIR0 = 0xFF;
 
     while(1) {
     	for(uint8_t i = 0; i < 10; i++) {
@@ -32,5 +32,5 @@ int main(void) {
 }
 
 void retardo(uint32_t t_retardo) {
-	for(uint32_t contador = 0 ; contador < t_retardo; contador++){};
+	for(uint32_t contador = 0 ; contador < t_retardo; contador ++){};
 }
