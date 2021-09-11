@@ -110,7 +110,7 @@ END GROUP
                 0x0000000020084000                __top_RamAHB32 = 0x20084000
                 0x0000000020084000                __top_RAM2 = 0x20084000
 
-.text           0x0000000000000000      0x438
+.text           0x0000000000000000      0x458
  FILL mask 0xff
                 0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -119,10 +119,10 @@ END GROUP
                 0x00000000000000cc                . = ALIGN (0x4)
                 0x00000000000000cc                __section_table_start = .
                 0x00000000000000cc                __data_section_table = .
-                0x00000000000000cc        0x4 LONG 0x438 LOADADDR (.data)
+                0x00000000000000cc        0x4 LONG 0x458 LOADADDR (.data)
                 0x00000000000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x00000000000000d4        0x4 LONG 0x0 SIZEOF (.data)
-                0x00000000000000d8        0x4 LONG 0x438 LOADADDR (.data_RAM2)
+                0x00000000000000d8        0x4 LONG 0x458 LOADADDR (.data_RAM2)
                 0x00000000000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x00000000000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x00000000000000e4                __data_section_table_end = .
@@ -193,46 +193,49 @@ END GROUP
                 0x0000000000000300                PROVIDE (__CRP_WORD_END__ = .)
                 0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
  *(.text*)
- .text.main     0x0000000000000300       0x5c ./src/Ejercicio1_entrada.o
+ .text.main     0x0000000000000300       0x44 ./src/Ejercicio1_entrada.o
                 0x0000000000000300                main
+ .text.confGPIO
+                0x0000000000000344       0x38 ./src/Ejercicio1_entrada.o
+                0x0000000000000344                confGPIO
  .text.SystemInit
-                0x000000000000035c       0xd8 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x000000000000035c                SystemInit
+                0x000000000000037c       0xd8 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x000000000000037c                SystemInit
  .text.__weak_main
-                0x0000000000000434        0x4 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
-                0x0000000000000434                __main
-                0x0000000000000434                __weak_main
+                0x0000000000000454        0x4 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
+                0x0000000000000454                __main
+                0x0000000000000454                __weak_main
  *(.rodata .rodata.* .constdata .constdata.*)
-                0x0000000000000438                . = ALIGN (0x4)
+                0x0000000000000458                . = ALIGN (0x4)
 
-.glue_7         0x0000000000000438        0x0
- .glue_7        0x0000000000000438        0x0 linker stubs
+.glue_7         0x0000000000000458        0x0
+ .glue_7        0x0000000000000458        0x0 linker stubs
 
-.glue_7t        0x0000000000000438        0x0
- .glue_7t       0x0000000000000438        0x0 linker stubs
+.glue_7t        0x0000000000000458        0x0
+ .glue_7t       0x0000000000000458        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000438        0x0
- .vfp11_veneer  0x0000000000000438        0x0 linker stubs
+.vfp11_veneer   0x0000000000000458        0x0
+ .vfp11_veneer  0x0000000000000458        0x0 linker stubs
 
-.v4_bx          0x0000000000000438        0x0
- .v4_bx         0x0000000000000438        0x0 linker stubs
+.v4_bx          0x0000000000000458        0x0
+ .v4_bx         0x0000000000000458        0x0 linker stubs
 
-.iplt           0x0000000000000438        0x0
- .iplt          0x0000000000000438        0x0 ./src/cr_startup_lpc175x_6x.o
+.iplt           0x0000000000000458        0x0
+ .iplt          0x0000000000000458        0x0 ./src/Ejercicio1_entrada.o
 
-.rel.dyn        0x0000000000000438        0x0
- .rel.iplt      0x0000000000000438        0x0 ./src/cr_startup_lpc175x_6x.o
+.rel.dyn        0x0000000000000458        0x0
+ .rel.iplt      0x0000000000000458        0x0 ./src/Ejercicio1_entrada.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0000000000000438        0x0
-                0x0000000000000438                __exidx_start = .
+.ARM.exidx      0x0000000000000458        0x0
+                0x0000000000000458                __exidx_start = .
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000000000438                __exidx_end = .
-                0x0000000000000438                _etext = .
+                0x0000000000000458                __exidx_end = .
+                0x0000000000000458                _etext = .
 
-.data_RAM2      0x000000002007c000        0x0 load address 0x0000000000000438
+.data_RAM2      0x000000002007c000        0x0 load address 0x0000000000000458
  FILL mask 0xff
                 [!provide]                        PROVIDE (__start_data_RAM2 = .)
                 [!provide]                        PROVIDE (__start_data_RamAHB32 = .)
@@ -253,7 +256,7 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _end_uninit_RESERVED = .
 
-.data           0x0000000010000000        0x0 load address 0x0000000000000438
+.data           0x0000000010000000        0x0 load address 0x0000000000000458
  FILL mask 0xff
                 0x0000000010000000                _data = .
                 [!provide]                        PROVIDE (__start_data_RAM = .)
@@ -269,8 +272,8 @@ END GROUP
                 [!provide]                        PROVIDE (__end_data_RAM = .)
                 [!provide]                        PROVIDE (__end_data_RamLoc32 = .)
 
-.igot.plt       0x0000000010000000        0x0 load address 0x0000000000000438
- .igot.plt      0x0000000010000000        0x0 ./src/cr_startup_lpc175x_6x.o
+.igot.plt       0x0000000010000000        0x0 load address 0x0000000000000458
+ .igot.plt      0x0000000010000000        0x0 ./src/Ejercicio1_entrada.o
 
 .bss_RAM2       0x000000002007c000        0x0
                 [!provide]                        PROVIDE (__start_bss_RAM2 = .)
@@ -319,37 +322,37 @@ END GROUP
                 0x0000000010008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
                 0xffffffffefff74c6                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x0000000000000000                _image_start = LOADADDR (.text)
-                0x0000000000000438                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x0000000000000438                _image_size = (_image_end - _image_start)
+                0x0000000000000458                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000000000000458                _image_size = (_image_end - _image_start)
 OUTPUT(Ejercicio1_entrada.axf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x0000000000000000      0xb48
- .debug_info    0x0000000000000000      0x542 ./src/Ejercicio1_entrada.o
- .debug_info    0x0000000000000542      0x27f ./src/cr_startup_lpc175x_6x.o
- .debug_info    0x00000000000007c1       0x40 ./src/crp.o
- .debug_info    0x0000000000000801      0x347 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_info     0x0000000000000000      0xb5a
+ .debug_info    0x0000000000000000      0x554 ./src/Ejercicio1_entrada.o
+ .debug_info    0x0000000000000554      0x27f ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000000000007d3       0x40 ./src/crp.o
+ .debug_info    0x0000000000000813      0x347 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_abbrev   0x0000000000000000      0x336
- .debug_abbrev  0x0000000000000000       0xce ./src/Ejercicio1_entrada.o
- .debug_abbrev  0x00000000000000ce      0x122 ./src/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x00000000000001f0       0x38 ./src/crp.o
- .debug_abbrev  0x0000000000000228      0x10e /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_abbrev   0x0000000000000000      0x34e
+ .debug_abbrev  0x0000000000000000       0xe6 ./src/Ejercicio1_entrada.o
+ .debug_abbrev  0x00000000000000e6      0x122 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000000000000208       0x38 ./src/crp.o
+ .debug_abbrev  0x0000000000000240      0x10e /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_aranges  0x0000000000000000       0xe0
+.debug_aranges  0x0000000000000000       0xe8
  .debug_aranges
-                0x0000000000000000       0x20 ./src/Ejercicio1_entrada.o
+                0x0000000000000000       0x28 ./src/Ejercicio1_entrada.o
  .debug_aranges
-                0x0000000000000020       0x80 ./src/cr_startup_lpc175x_6x.o
+                0x0000000000000028       0x80 ./src/cr_startup_lpc175x_6x.o
  .debug_aranges
-                0x00000000000000a0       0x18 ./src/crp.o
+                0x00000000000000a8       0x18 ./src/crp.o
  .debug_aranges
-                0x00000000000000b8       0x28 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000000000000c0       0x28 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_ranges   0x0000000000000000       0x98
- .debug_ranges  0x0000000000000000       0x10 ./src/Ejercicio1_entrada.o
- .debug_ranges  0x0000000000000010       0x70 ./src/cr_startup_lpc175x_6x.o
- .debug_ranges  0x0000000000000080       0x18 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_ranges   0x0000000000000000       0xa0
+ .debug_ranges  0x0000000000000000       0x18 ./src/Ejercicio1_entrada.o
+ .debug_ranges  0x0000000000000018       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x0000000000000088       0x18 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
 .debug_macro    0x0000000000000000     0x28ca
  .debug_macro   0x0000000000000000       0x75 ./src/Ejercicio1_entrada.o
@@ -368,20 +371,20 @@ LOAD linker stubs
  .debug_macro   0x0000000000001d27      0x12b /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .debug_macro   0x0000000000001e52      0xa78 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x0000000000000000      0x89b
- .debug_line    0x0000000000000000      0x24a ./src/Ejercicio1_entrada.o
- .debug_line    0x000000000000024a      0x160 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x00000000000003aa       0xb5 ./src/crp.o
- .debug_line    0x000000000000045f      0x43c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_line     0x0000000000000000      0x8b8
+ .debug_line    0x0000000000000000      0x267 ./src/Ejercicio1_entrada.o
+ .debug_line    0x0000000000000267      0x160 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x00000000000003c7       0xb5 ./src/crp.o
+ .debug_line    0x000000000000047c      0x43c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_str      0x0000000000000000     0x8eb3
- .debug_str     0x0000000000000000     0x8693 ./src/Ejercicio1_entrada.o
-                                       0x8714 (size before relaxing)
- .debug_str     0x0000000000008693      0x1c2 ./src/cr_startup_lpc175x_6x.o
+.debug_str      0x0000000000000000     0x8ebc
+ .debug_str     0x0000000000000000     0x869c ./src/Ejercicio1_entrada.o
+                                       0x871d (size before relaxing)
+ .debug_str     0x000000000000869c      0x1c2 ./src/cr_startup_lpc175x_6x.o
                                        0x2ec6 (size before relaxing)
- .debug_str     0x0000000000008855       0xe9 ./src/crp.o
+ .debug_str     0x000000000000885e       0xe9 ./src/crp.o
                                        0x2de7 (size before relaxing)
- .debug_str     0x000000000000893e      0x575 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_str     0x0000000000008947      0x575 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                        0x88ad (size before relaxing)
 
 .comment        0x0000000000000000       0x4d
@@ -405,10 +408,10 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000000ba       0x2d /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
 
-.debug_frame    0x0000000000000000      0x1d8
- .debug_frame   0x0000000000000000       0x2c ./src/Ejercicio1_entrada.o
- .debug_frame   0x000000000000002c      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x000000000000019c       0x3c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_frame    0x0000000000000000      0x1fc
+ .debug_frame   0x0000000000000000       0x50 ./src/Ejercicio1_entrada.o
+ .debug_frame   0x0000000000000050      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000000000001c0       0x3c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
 Cross Reference Table
 
@@ -480,6 +483,7 @@ __valid_user_code_checksum                        ./src/cr_startup_lpc175x_6x.o
 __weak_main                                       /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
 _vStackTop                                        ./src/cr_startup_lpc175x_6x.o
 bss_init                                          ./src/cr_startup_lpc175x_6x.o
+confGPIO                                          ./src/Ejercicio1_entrada.o
 data_init                                         ./src/cr_startup_lpc175x_6x.o
 g_pfnVectors                                      ./src/cr_startup_lpc175x_6x.o
 main                                              ./src/Ejercicio1_entrada.o

@@ -29,7 +29,7 @@ all: Ejercicio2_salida.axf
 Ejercicio2_salida.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug" -Xlinker -Map="Ejercicio2_salida.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "Ejercicio2_salida_Debug.ld" -o "Ejercicio2_salida.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug" -Xlinker -Map="Ejercicio2_salida.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "Ejercicio2_salida_Debug.ld" -o "Ejercicio2_salida.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

@@ -1,11 +1,11 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+/home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                               ./src/cr_startup_lpc175x_6x.o (SystemInit)
 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
                               ./src/cr_startup_lpc175x_6x.o (__main)
 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_64.o)
-                              /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_ldivmod)
+                              /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_ldivmod)
 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
                               /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
 
@@ -34,30 +34,30 @@ Discarded input sections
  .data          0x0000000000000000        0x0 ./src/crp.o
  .bss           0x0000000000000000        0x0 ./src/crp.o
  .debug_macro   0x0000000000000000      0xa7e ./src/crp.o
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .text          0x0000000000000000        0x0 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .data          0x0000000000000000        0x0 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .bss           0x0000000000000000        0x0 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0xc /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x0000000000000000        0x0 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x0000000000000000        0x0 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x0000000000000000        0x0 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .text.SystemCoreClockUpdate
-                0x0000000000000000       0xb8 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x0000000000000000       0xb8 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .data.SystemCoreClock
-                0x0000000000000000        0x4 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000       0x10 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000      0x12e /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000      0x5b3 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000       0x1c /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000       0x2e /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000       0x18 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000      0x7af /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000000000      0x2c7 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x0000000000000000        0x4 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000       0x10 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x12e /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x5b3 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000       0x1c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000       0x2e /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000       0x18 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x7af /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x2c7 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
  .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
  .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
@@ -91,7 +91,7 @@ Linker script and memory map
 LOAD ./src/Ejercicio2_salida.o
 LOAD ./src/cr_startup_lpc175x_6x.o
 LOAD ./src/crp.o
-LOAD /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a
+LOAD /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a
 START GROUP
 LOAD /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a
 LOAD /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a
@@ -110,7 +110,7 @@ END GROUP
                 0x0000000020084000                __top_RamAHB32 = 0x20084000
                 0x0000000020084000                __top_RAM2 = 0x20084000
 
-.text           0x0000000000000000      0x4a4
+.text           0x0000000000000000      0x4b8
  FILL mask 0xff
                 0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -119,10 +119,10 @@ END GROUP
                 0x00000000000000cc                . = ALIGN (0x4)
                 0x00000000000000cc                __section_table_start = .
                 0x00000000000000cc                __data_section_table = .
-                0x00000000000000cc        0x4 LONG 0x4a4 LOADADDR (.data)
+                0x00000000000000cc        0x4 LONG 0x4b8 LOADADDR (.data)
                 0x00000000000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x00000000000000d4        0x4 LONG 0x0 SIZEOF (.data)
-                0x00000000000000d8        0x4 LONG 0x4a4 LOADADDR (.data_RAM2)
+                0x00000000000000d8        0x4 LONG 0x4b8 LOADADDR (.data_RAM2)
                 0x00000000000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x00000000000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x00000000000000e4                __data_section_table_end = .
@@ -193,49 +193,53 @@ END GROUP
                 0x0000000000000300                PROVIDE (__CRP_WORD_END__ = .)
                 0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
  *(.text*)
- .text.main     0x0000000000000300       0x78 ./src/Ejercicio2_salida.o
+ .text.main     0x0000000000000300       0x68 ./src/Ejercicio2_salida.o
                 0x0000000000000300                main
- .text.retardo  0x0000000000000378       0x28 ./src/Ejercicio2_salida.o
-                0x0000000000000378                retardo
+ .text.confGPIO
+                0x0000000000000368       0x24 ./src/Ejercicio2_salida.o
+                0x0000000000000368                confGPIO
+ .text.retardo  0x000000000000038c       0x26 ./src/Ejercicio2_salida.o
+                0x000000000000038c                retardo
+ *fill*         0x00000000000003b2        0x2 ff
  .text.SystemInit
-                0x00000000000003a0       0xd8 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x00000000000003a0                SystemInit
+                0x00000000000003b4       0xd8 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000000000003b4                SystemInit
  .text.__weak_main
-                0x0000000000000478        0x4 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
-                0x0000000000000478                __main
-                0x0000000000000478                __weak_main
+                0x000000000000048c        0x4 /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
+                0x000000000000048c                __main
+                0x000000000000048c                __weak_main
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata        0x000000000000047c       0x28 ./src/Ejercicio2_salida.o
-                0x00000000000004a4                . = ALIGN (0x4)
+ .rodata        0x0000000000000490       0x28 ./src/Ejercicio2_salida.o
+                0x00000000000004b8                . = ALIGN (0x4)
 
-.glue_7         0x00000000000004a4        0x0
- .glue_7        0x00000000000004a4        0x0 linker stubs
+.glue_7         0x00000000000004b8        0x0
+ .glue_7        0x00000000000004b8        0x0 linker stubs
 
-.glue_7t        0x00000000000004a4        0x0
- .glue_7t       0x00000000000004a4        0x0 linker stubs
+.glue_7t        0x00000000000004b8        0x0
+ .glue_7t       0x00000000000004b8        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000004a4        0x0
- .vfp11_veneer  0x00000000000004a4        0x0 linker stubs
+.vfp11_veneer   0x00000000000004b8        0x0
+ .vfp11_veneer  0x00000000000004b8        0x0 linker stubs
 
-.v4_bx          0x00000000000004a4        0x0
- .v4_bx         0x00000000000004a4        0x0 linker stubs
+.v4_bx          0x00000000000004b8        0x0
+ .v4_bx         0x00000000000004b8        0x0 linker stubs
 
-.iplt           0x00000000000004a4        0x0
- .iplt          0x00000000000004a4        0x0 ./src/Ejercicio2_salida.o
+.iplt           0x00000000000004b8        0x0
+ .iplt          0x00000000000004b8        0x0 ./src/Ejercicio2_salida.o
 
-.rel.dyn        0x00000000000004a4        0x0
- .rel.iplt      0x00000000000004a4        0x0 ./src/Ejercicio2_salida.o
+.rel.dyn        0x00000000000004b8        0x0
+ .rel.iplt      0x00000000000004b8        0x0 ./src/Ejercicio2_salida.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x00000000000004a4        0x0
-                0x00000000000004a4                __exidx_start = .
+.ARM.exidx      0x00000000000004b8        0x0
+                0x00000000000004b8                __exidx_start = .
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000000004a4                __exidx_end = .
-                0x00000000000004a4                _etext = .
+                0x00000000000004b8                __exidx_end = .
+                0x00000000000004b8                _etext = .
 
-.data_RAM2      0x000000002007c000        0x0 load address 0x00000000000004a4
+.data_RAM2      0x000000002007c000        0x0 load address 0x00000000000004b8
  FILL mask 0xff
                 [!provide]                        PROVIDE (__start_data_RAM2 = .)
                 [!provide]                        PROVIDE (__start_data_RamAHB32 = .)
@@ -256,7 +260,7 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _end_uninit_RESERVED = .
 
-.data           0x0000000010000000        0x0 load address 0x00000000000004a4
+.data           0x0000000010000000        0x0 load address 0x00000000000004b8
  FILL mask 0xff
                 0x0000000010000000                _data = .
                 [!provide]                        PROVIDE (__start_data_RAM = .)
@@ -272,7 +276,7 @@ END GROUP
                 [!provide]                        PROVIDE (__end_data_RAM = .)
                 [!provide]                        PROVIDE (__end_data_RamLoc32 = .)
 
-.igot.plt       0x0000000010000000        0x0 load address 0x00000000000004a4
+.igot.plt       0x0000000010000000        0x0 load address 0x00000000000004b8
  .igot.plt      0x0000000010000000        0x0 ./src/Ejercicio2_salida.o
 
 .bss_RAM2       0x000000002007c000        0x0
@@ -322,37 +326,37 @@ END GROUP
                 0x0000000010008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
                 0xffffffffefff74c6                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x0000000000000000                _image_start = LOADADDR (.text)
-                0x00000000000004a4                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x00000000000004a4                _image_size = (_image_end - _image_start)
+                0x00000000000004b8                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000000000004b8                _image_size = (_image_end - _image_start)
 OUTPUT(Ejercicio2_salida.axf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x0000000000000000      0xbb1
- .debug_info    0x0000000000000000      0x5ab ./src/Ejercicio2_salida.o
- .debug_info    0x00000000000005ab      0x27f ./src/cr_startup_lpc175x_6x.o
- .debug_info    0x000000000000082a       0x40 ./src/crp.o
- .debug_info    0x000000000000086a      0x347 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_info     0x0000000000000000      0xbc3
+ .debug_info    0x0000000000000000      0x5bd ./src/Ejercicio2_salida.o
+ .debug_info    0x00000000000005bd      0x27f ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x000000000000083c       0x40 ./src/crp.o
+ .debug_info    0x000000000000087c      0x347 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_abbrev   0x0000000000000000      0x37f
- .debug_abbrev  0x0000000000000000      0x117 ./src/Ejercicio2_salida.o
- .debug_abbrev  0x0000000000000117      0x122 ./src/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x0000000000000239       0x38 ./src/crp.o
- .debug_abbrev  0x0000000000000271      0x10e /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_abbrev   0x0000000000000000      0x397
+ .debug_abbrev  0x0000000000000000      0x12f ./src/Ejercicio2_salida.o
+ .debug_abbrev  0x000000000000012f      0x122 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000000000000251       0x38 ./src/crp.o
+ .debug_abbrev  0x0000000000000289      0x10e /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_aranges  0x0000000000000000       0xe8
+.debug_aranges  0x0000000000000000       0xf0
  .debug_aranges
-                0x0000000000000000       0x28 ./src/Ejercicio2_salida.o
+                0x0000000000000000       0x30 ./src/Ejercicio2_salida.o
  .debug_aranges
-                0x0000000000000028       0x80 ./src/cr_startup_lpc175x_6x.o
+                0x0000000000000030       0x80 ./src/cr_startup_lpc175x_6x.o
  .debug_aranges
-                0x00000000000000a8       0x18 ./src/crp.o
+                0x00000000000000b0       0x18 ./src/crp.o
  .debug_aranges
-                0x00000000000000c0       0x28 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000000000000c8       0x28 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_ranges   0x0000000000000000       0xa0
- .debug_ranges  0x0000000000000000       0x18 ./src/Ejercicio2_salida.o
- .debug_ranges  0x0000000000000018       0x70 ./src/cr_startup_lpc175x_6x.o
- .debug_ranges  0x0000000000000088       0x18 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_ranges   0x0000000000000000       0xa8
+ .debug_ranges  0x0000000000000000       0x20 ./src/Ejercicio2_salida.o
+ .debug_ranges  0x0000000000000020       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x0000000000000090       0x18 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
 .debug_macro    0x0000000000000000     0x28ca
  .debug_macro   0x0000000000000000       0x75 ./src/Ejercicio2_salida.o
@@ -368,31 +372,31 @@ LOAD linker stubs
  .debug_macro   0x0000000000001cbc       0x1d ./src/cr_startup_lpc175x_6x.o
  .debug_macro   0x0000000000001cd9       0x1a ./src/crp.o
  .debug_macro   0x0000000000001cf3       0x34 ./src/crp.o
- .debug_macro   0x0000000000001d27      0x12b /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000000000001e52      0xa78 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000001d27      0x12b /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000001e52      0xa78 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x0000000000000000      0x8ca
- .debug_line    0x0000000000000000      0x279 ./src/Ejercicio2_salida.o
- .debug_line    0x0000000000000279      0x160 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x00000000000003d9       0xb5 ./src/crp.o
- .debug_line    0x000000000000048e      0x43c /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_line     0x0000000000000000      0x8f1
+ .debug_line    0x0000000000000000      0x2a0 ./src/Ejercicio2_salida.o
+ .debug_line    0x00000000000002a0      0x160 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x0000000000000400       0xb5 ./src/crp.o
+ .debug_line    0x00000000000004b5      0x43c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_str      0x0000000000000000     0x8eac
- .debug_str     0x0000000000000000     0x8698 ./src/Ejercicio2_salida.o
-                                       0x8719 (size before relaxing)
- .debug_str     0x0000000000008698      0x1c2 ./src/cr_startup_lpc175x_6x.o
-                                       0x2eb9 (size before relaxing)
- .debug_str     0x000000000000885a       0xe9 ./src/crp.o
-                                       0x2dda (size before relaxing)
- .debug_str     0x0000000000008943      0x569 /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                                       0x88a1 (size before relaxing)
+.debug_str      0x0000000000000000     0x8ecd
+ .debug_str     0x0000000000000000     0x86ad ./src/Ejercicio2_salida.o
+                                       0x872e (size before relaxing)
+ .debug_str     0x00000000000086ad      0x1c2 ./src/cr_startup_lpc175x_6x.o
+                                       0x2ec5 (size before relaxing)
+ .debug_str     0x000000000000886f       0xe9 ./src/crp.o
+                                       0x2de6 (size before relaxing)
+ .debug_str     0x0000000000008958      0x575 /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                                       0x88ad (size before relaxing)
 
 .comment        0x0000000000000000       0x4d
  .comment       0x0000000000000000       0x4d ./src/Ejercicio2_salida.o
                                          0x4e (size before relaxing)
  .comment       0x000000000000004d       0x4e ./src/cr_startup_lpc175x_6x.o
  .comment       0x000000000000004d       0x4e ./src/crp.o
- .comment       0x000000000000004d       0x4e /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x000000000000004d       0x4e /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .comment       0x000000000000004d       0x4e /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
 
 .ARM.attributes
@@ -404,14 +408,14 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000005a       0x33 ./src/crp.o
  .ARM.attributes
-                0x000000000000008d       0x2d /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x000000000000008d       0x2d /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .ARM.attributes
                 0x00000000000000ba       0x2d /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
 
-.debug_frame    0x0000000000000000      0x208
- .debug_frame   0x0000000000000000       0x5c ./src/Ejercicio2_salida.o
- .debug_frame   0x000000000000005c      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x00000000000001cc       0x3c /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_frame    0x0000000000000000      0x228
+ .debug_frame   0x0000000000000000       0x7c ./src/Ejercicio2_salida.o
+ .debug_frame   0x000000000000007c      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000000000001ec       0x3c /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
 Cross Reference Table
 
@@ -451,9 +455,9 @@ SSP0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 SSP1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 SVC_Handler                                       ./src/cr_startup_lpc175x_6x.o
 SysTick_Handler                                   ./src/cr_startup_lpc175x_6x.o
-SystemCoreClock                                   /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-SystemCoreClockUpdate                             /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-SystemInit                                        /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+SystemCoreClock                                   /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+SystemCoreClockUpdate                             /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+SystemInit                                        /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                                   ./src/cr_startup_lpc175x_6x.o
 TIMER0_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
 TIMER1_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
@@ -470,9 +474,9 @@ WDT_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
 __aeabi_idiv0                                     /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
                                                   /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_64.o)
 __aeabi_ldivmod                                   /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_64.o)
-                                                  /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                                                  /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 __aeabi_uldivmod                                  /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_64.o)
-                                                  /home/juanmagil/MEGA/Facultad/ED3/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                                                  /home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 __bhs_ldivmod1                                    /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7-m/nofp/libcr_eabihelpers.a(division_64.o)
 __bss_section_table_end                           ./src/cr_startup_lpc175x_6x.o
 __data_section_table                              ./src/cr_startup_lpc175x_6x.o
@@ -483,6 +487,7 @@ __valid_user_code_checksum                        ./src/cr_startup_lpc175x_6x.o
 __weak_main                                       /usr/local/mcuxpressoide-11.4.0_6237/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.4.0.202103011116/tools/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libcr_c.a(__weak__main.o)
 _vStackTop                                        ./src/cr_startup_lpc175x_6x.o
 bss_init                                          ./src/cr_startup_lpc175x_6x.o
+confGPIO                                          ./src/Ejercicio2_salida.o
 data_init                                         ./src/cr_startup_lpc175x_6x.o
 g_pfnVectors                                      ./src/cr_startup_lpc175x_6x.o
 main                                              ./src/Ejercicio2_salida.o
