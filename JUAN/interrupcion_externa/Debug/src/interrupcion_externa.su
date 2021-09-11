@@ -1,0 +1,7 @@
+/home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/inc/core_cm3.h:928:22:NVIC_EnableIRQ	16	static
+/home/juanmagil/MEGA/Facultad/ED3/ED_III/JUAN/CMSISv2p00_LPC17xx/inc/core_cm3.h:1012:22:NVIC_SetPriority	16	static
+../src/interrupcion_externa.c:20:5:main	8	static
+../src/interrupcion_externa.c:27:6:confPin	4	static
+../src/interrupcion_externa.c:34:6:confIntExt	8	static
+../src/interrupcion_externa.c:47:6:EINT1_IRQHandler	16	static
+../src/interrupcion_externa.c:53:6:EINT2_IRQHandler	16	static

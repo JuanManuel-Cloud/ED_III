@@ -27,8 +27,8 @@ int main(void) {
 void confPin() {
 	//tengo que poner 1 en el bit 22 y en el 24 y 0 en el bit 23 y 25, para config
 	//como eint
-	PINCON -> PINSEL4 |= (0b101 << 22); //estoy poniendo los 1
-	PINCON -> PINSEL4 &= ~(0b101 << 23); //estoy poniendo los 0
+	LPC_PINCON -> PINSEL4 |= (0b101 << 22); //estoy poniendo los 1
+	LPC_PINCON -> PINSEL4 &= ~(0b101 << 23); //estoy poniendo los 0
 }
 
 void confIntExt() {
@@ -45,13 +45,13 @@ void confIntExt() {
 }
 
 void EINT1_IRQHandler() {
-	SysTick -> LOAD = SystemCoreClock * 0.025 - 1;
+	SysTick -> LOAD = SystemCoreClock * 0.025;
 	LPC_SC -> EXTINT |= 0x2; //limpio la flag de interrupción del eint1
 	return;
 }
 
 void EINT2_IRQHandler() {
-	SysTick -> LOAD = SystemCoreClock * 0.06 - 1;
-	LPC_sC -> EXTINT |= 0x4; //limpio la flag de interrupción del eint2
+	SysTick -> LOAD = SystemCoreClock * 0.06;
+	LPC_SC -> EXTINT |= 0x4; //limpio la flag de interrupción del eint2
 	return;
 }
