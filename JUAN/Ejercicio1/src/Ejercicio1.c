@@ -24,9 +24,9 @@ void retardo( uint32_t );
 int main(void) {
 	uint32_t t_retardo = 100000;
 
-	LPC_PINCON -> PINSEL0 = ~0xFFFFF; //de está manera pongo como GPIO los puertos de 0 a 9
-	LPC_GPIO0 -> FIODIRL = 0x3FF;
-	LPC_GPIO0 -> FIOMASKL = 0xFC00;
+	LPC_PINCON -> PINSEL0 &= ~0xFFFFF; //de está manera pongo como GPIO los puertos de 0 a 9
+	LPC_GPIO0 -> FIODIRL |= 0x3FF;
+	LPC_GPIO0 -> FIOMASKL |= 0xFC00;
 
     while(1) {
     	toggleLed(t_retardo);
@@ -35,9 +35,9 @@ int main(void) {
 }
 
 void toggleLed(uint32_t t_retardo) {
-	LPC_GPIO0 -> FIOPINL = 0x3FF;
+	LPC_GPIO0 -> FIOPINL |= 0x3FF;
 	retardo(t_retardo);
-	LPC_GPIO0 -> FIOPINL = ~0x3FF;
+	LPC_GPIO0 -> FIOPINL &= ~0x3FF;
 }
 
 void retardo(uint32_t t_retardo) {

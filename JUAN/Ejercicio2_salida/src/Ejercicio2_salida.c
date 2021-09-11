@@ -35,8 +35,8 @@ int main(void) {
 }
 
 void confGPIO() {
-	LPC_PINCON -> PINSEL4 = ~0xFFFF; //pongo el primer byte como gpio
-	LPC_GPIO2 -> FIODIR0 = 0xFF; //pongo el primer byte como salida
+	LPC_PINCON -> PINSEL4 &= ~0xFFFF; //pongo el primer byte como gpio
+	LPC_GPIO2 -> FIODIR0 |= 0xFF; //pongo el primer byte como salida
 	return;
 }
 

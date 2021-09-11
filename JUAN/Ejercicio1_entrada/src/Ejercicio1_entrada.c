@@ -11,10 +11,10 @@ int main() {
 
 	while(1) {
 
-		if (LPC_GPIO0 -> FIOPIN0 & (1 << 5)) { //puede que sea 4 acá?
-			acumulador += LPC_GPIO0 -> FIOPIN0 & (0xF); //me quedo con el valor de los primeros 4 bits
+		if (LPC_GPIO0 -> FIOPIN0 & (1 << 4)) { //puede que sea 4 acá?
+			acumulador += LPC_GPIO0 -> FIOPIN0 & (0x0F); //me quedo con el valor de los primeros 4 bits
 		} else {
-			acumulador -= LPC_GPIO0 -> FIOPIN0 & (0xF);
+			acumulador -= LPC_GPIO0 -> FIOPIN0 & (0x0F);
 		}
 
 	}
@@ -22,8 +22,9 @@ int main() {
 }
 
 void confGPIO() {
-	LPC_PINCON -> PINSEL0 = ~0x1FF; //seteo como gpio los puertos 0,1,2,3,4
-	LPC_PINCON -> PINMODE0 &= ~(3 << 8); //pongo en 0 el pin 8 y 9, para que sean pull up
-	LPC_GPIO0 -> FIODIR0 = 0xF; //pongo p0.4 como entrada y p0 0-3 como slaida
-	LPC_GPIO0 -> FIOMASK0 = 0xE0; //enmascaro los bits que no voy a usar
+	LPC_PINCON -> PINSEL0 &= ~0x1FF; //seteo como gpio los PITS 0,1,2,3,4
+	LPC_PINCON -> PINMODE0 &= ~(0x3 << 8); //pongo en 0 el pin 8 y 9, para que sean pull up
+	LPC_GPIO0 -> FIODIR0 &= ~(0x1 << 4); //pongo p0.4 como entrada
+	LPC_GPIO0 -> FIODIR0 |= 0xF; //PONGO P0 0 - 3 como salida
+	LPC_GPIO0 -> FIOMASK0 |= 0xE0; //enmascaro los bits que no voy a usar
 }
